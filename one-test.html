@@ -10,9 +10,7 @@
 
 </head>
 <body>
-
     <!--Consulte a documentação especfica de grid através do site para compreender esse body abaixo: https://getbootstrap.com/docs/3.4/css/#grid
-
     <div class="container">
         <div class="row">
             <div class="col col-xs-6 col-sm-10 col-md-2 marcador">
@@ -26,9 +24,8 @@
 -->
 
 
-
     <!--Class 66 - Formulários - Link da documentação de Form no Bootstrap: https://getbootstrap.com/docs/3.4/css/#forms -->
-
+    <!--
    <div class="container">
         <div class="page-header">
             <h1> Forms Bootstrap </h1>
@@ -40,15 +37,15 @@
                 <form>
                     <div class="form-group">
                         <label for="nome"> Nome e Sobrenome </label>
-                        <input type="text" class="form-control" id="nome"> <!-- Essa classe class="form-control" deixa visualmente mais bonitinho e quando vc seleciona a caixinha, ela fica azulzinha -->
+                        <input type="text" class="form-control" id="nome"> Essa classe class="form-control" deixa visualmente mais bonitinho e quando vc seleciona a caixinha, ela fica azulzinha
                     </div>
                     <div class="form-group">
                         <label for="email"> E-mail </label>
-                        <input type="email" class="form-control" id="email"> <!-- Essa classe class="form-control" deixa visualmente mais bonitinho e quando vc seleciona a caixinha, ela fica azulzinha -->
+                        <input type="email" class="form-control" id="email"> Essa classe class="form-control" deixa visualmente mais bonitinho e quando vc seleciona a caixinha, ela fica azulzinha
                     </div>
                     <div class="form-group">
                         <label for="senha"> Senha </label>
-                        <input type="password" class="form-control" id="senha"> <!-- Essa classe class="form-control" deixa visualmente mais bonitinho e quando vc seleciona a caixinha, ela fica azulzinha -->
+                        <input type="password" class="form-control" id="senha"> Essa classe class="form-control" deixa visualmente mais bonitinho e quando vc seleciona a caixinha, ela fica azulzinha
                     </div>
                     <div class="checkbox">
                         <label>
@@ -67,22 +64,16 @@
                     </div>
                 </form>
             </div>
-            
-            
-            
-            <!-- ------------------------------------------------------------------- -->
-            
-            
-            
+            -------------------------------------------------------------------   
             <div class="col-sm-4">
                 <h3> Logar </h3>
                 <div class="form-group">
-                    <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail"> <!-- Essa classe class="form-control" deixa visualmente mais bonitinho e quando vc seleciona a caixinha, ela fica azulzinha -->
-                <!-- Só para lembrar: Placeholder é para criar aquele texto meio que marca d'água dentro de uma caixinha de input (recebimento de dados)-->
+                    <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail"> Essa classe class="form-control" deixa visualmente mais bonitinho e quando vc seleciona a caixinha, ela fica azulzinha
+                Só para lembrar: Placeholder é para criar aquele texto meio que marca d'água dentro de uma caixinha de input (recebimento de dados)
                 </div>
 
                 <div class="form-group">
-                    <input type="password" class="form-control" id="senha" placeholder="Digite sua senha"> <!-- Essa classe class="form-control" deixa visualmente mais bonitinho e quando vc seleciona a caixinha, ela fica azulzinha -->
+                    <input type="password" class="form-control" id="senha" placeholder="Digite sua senha">  Essa classe class="form-control" deixa visualmente mais bonitinho e quando vc seleciona a caixinha, ela fica azulzinha
                 </div>
 
                 <button type="submit" class="btn btn-warning">Logar</button>
@@ -90,18 +81,57 @@
             
         </div>
    </div>
+-->
 
 
+    <!--Criand tabelas com bootstrap -->
 
+    <div class="container">
+        <div class="page-header">
+            <h1> Tabela Formada com bootstrap </h1>
+        </div>
 
+        <table class="table table-striped table-bordered table-hover border border-5">
+            <thead class="bg-dark text-white">
+                <tr class=>
+                    <th> Produto </th>
+                    <th> Fabricante </th>
+                    <th> Preço </th>
+                </tr>
+            </thead>
 
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+            <tbody>
+                <tr>
+                    <td> YBR 125 </td>
+                    <td> Yamaha </td>
+                    <td> 5.000,00 </td>
+                </tr>
+                <tr>
+                    <td> Fazer 250 </td>
+                    <td> Yamaha </td>
+                    <td> 9.500,00 </td> 
+                </tr>
+                <tr>
+                    <td> Yes 125 </td>
+                    <td> Suzuki </td>
+                    <td> 4.500,00 </td> 
+                </tr>
+                <tr>
+                    <td> Complete um item </td>
+                    <td> Complete um item </td>
+                    <td> Complete um item </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
 </body>
 </html>
